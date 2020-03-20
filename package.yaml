@@ -1,14 +1,13 @@
-name:                final-project
+name:                elevanagram-haskell
 version:             0.1.0.0
-github:              "githubuser/final-project"
-license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2020 Author name here"
+github:              "halyngoc/elevanagram-haskell"
+license:             MIT
+author:              "Ha Ly"
+maintainer:          "lyha@pdx.edu"
+copyright:           "2020 Ha Ly"
 
 extra-source-files:
 - README.md
-- ChangeLog.md
 
 # Metadata used when publishing your package
 # synopsis:            Short description of your package
@@ -17,7 +16,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/githubuser/final-project#readme>
+description:         Please see the README on GitHub at <https://github.com/halyngoc/elevanagram-haskell#readme>
 
 dependencies:
 - base >= 4.7 && < 5
@@ -31,7 +30,7 @@ library:
     - random
 
 executables:
-  final-project-exe:
+  elevanagram-haskell-exe:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -40,10 +39,10 @@ executables:
     - -with-rtsopts=-N
     - -O2
     dependencies:
-    - final-project
+    - elevanagram-haskell
 
 tests:
-  final-project-test:
+  elevanagram-haskell-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
@@ -51,4 +50,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - final-project
+    - elevanagram-haskell
