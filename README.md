@@ -7,3 +7,9 @@ To run
 ```
 stack run -- -o output.html
 ```
+
+To run unit tests
+
+```
+stack test
+```
